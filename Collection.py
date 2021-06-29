@@ -13,10 +13,10 @@ import uuid
 
 IMAGES_PATH = 'Tensorflow/workspace/images/collectedimages'
 
-labels = ['hello', 'thanks', 'yes', 'no', 'iloveyou', 'iam', 'who', 'machine', 'learning', 'cool', 'life', 'dinner', 'he', 'name', 'write']
+labels = ['hello', 'thanks', 'yes', 'no', 'iloveyou', 'iam', 'who', 'machine', 'learning', 'cool', 'life', 'dinner', 'he', 'name', 'bored']
 
-num_imgs = 5
-label = labels[0]
+num_imgs = 10
+label = labels[14]
 path = '~/Desktop/SignLanguageDetection/Tensorflow/workspace/images/collectedimages/'+label
 os.system('mkdir '+path)
 cap = cv2.VideoCapture(0)
