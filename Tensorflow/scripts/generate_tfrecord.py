@@ -94,6 +94,7 @@ def xml_to_csv(path):
     column_name = ['filename', 'width', 'height',
                    'class', 'xmin', 'ymin', 'xmax', 'ymax']
     xml_df = pd.DataFrame(xml_list, columns=column_name)
+    xml_df.to_csv('D:/YouTube/test.csv')
     return xml_df
 
 
